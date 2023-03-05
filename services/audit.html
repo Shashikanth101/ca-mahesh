@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="../styles/base.css">
     <link rel="stylesheet" href="../styles/services.css">
+    <link rel="stylesheet" href="../styles/mobile.css">
   </head>
   <body>
     <header style="width: 100%">
@@ -56,15 +57,11 @@
           <a href="/" class="d-flex" style="text-decoration: none; color: #000;">
             <img src="../images/Company-logo.png" alt="CA Logo" style="height: 64px;">
             <div style="margin-left: 20px;">
-              <h2 style="font-size: 32px; margin: 0;">
-                Mahesh Bandi & Associates
-              </h2>
-              <h4 style="font-size: 16px; font-weight: normal;">
-                CHARTERED ACCOUNTANTS
-              </h4>
+              <h2>Mahesh Bandi & Associates</h2>
+              <h4>CHARTERED ACCOUNTANTS</h4>
             </div>
           </a>
-          <div class="d-flex">
+          <div class="d-flex established-logo">
             <img src="../images/iso-icon.png" alt="ISO png">
             <div style="margin-left: 8px;">
               <span style="display: block;">Established</span>
@@ -76,6 +73,13 @@
     </header>
 
     <nav style="background-color: #065695;">
+      <div class="collapsable-menu-mobile">
+        <button class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
       <div class="container">
         <ul class="nav-links">
           <li>
@@ -253,5 +257,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="../scripts/mobile.js"></script>
   </body>
 </html>

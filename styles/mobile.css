@@ -1,0 +1,66 @@
+@media (max-width: 699px) {
+  header div:first-child {
+    display: none;
+  }
+
+  .established-logo {
+    display: none !important;
+  }
+
+  header h2 {
+    font-size: 24px;
+  }
+
+  header div:nth-child(2) div {
+    margin-left: 10px;
+  }
+
+  .collapsable-menu-mobile {
+    display: block;
+    height: 44px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px 8px;
+  }
+
+  .hamburger-menu {
+    height: 34px;
+    width: 40px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4px;
+  }
+
+  .hamburger-menu span {
+    border: 1px solid #cdcdcd;
+    width: 100%;
+  }
+
+  .banner-image {
+    height: 250px;
+  }
+
+  nav .nav-links,
+  .main-page-menu,
+  .about-us-section,
+  .footer-info-sections,
+  .contact-us-container,
+  .services-container {
+    flex-direction: column;
+  }
+
+  .main-page-menu {
+    align-items: center;
+    grid-gap: 24px;
+  }
+
+  .services-menu-container {
+    width: 100%;
+  }
+}

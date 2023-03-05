@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/contact-us.css">
+    <link rel="stylesheet" href="styles/mobile.css">
   </head>
   <body>
     <header style="width: 100%">
@@ -56,15 +57,11 @@
           <a href="/" class="d-flex" style="text-decoration: none; color: #000;">
             <img src="./images/Company-logo.png" alt="CA Logo" style="height: 64px;">
             <div style="margin-left: 20px;">
-              <h2 style="font-size: 32px; margin: 0;">
-                Mahesh Bandi & Associates
-              </h2>
-              <h4 style="font-size: 16px; font-weight: normal;">
-                CHARTERED ACCOUNTANTS
-              </h4>
+              <h2>Mahesh Bandi & Associates</h2>
+              <h4>CHARTERED ACCOUNTANTS</h4>
             </div>
           </a>
-          <div class="d-flex">
+          <div class="d-flex established-logo">
             <img src="./images/iso-icon.png" alt="ISO png">
             <div style="margin-left: 8px;">
               <span style="display: block;">Established</span>
@@ -76,6 +73,13 @@
     </header>
 
     <nav style="background-color: #065695;">
+      <div class="collapsable-menu-mobile">
+        <button class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
       <div class="container">
         <ul class="nav-links">
           <li>
@@ -112,7 +116,7 @@
 
     <main class="container">
       <h1 class="page-heading">CONTACT INFORMATION</h1>
-      <div style="display: flex; grid-gap: 24px;">
+      <div class="contact-us-container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d951.8051915419703!2d78.56668805710046!3d17.401189873226777!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99333011a9bf%3A0x8c7e63cb81fabc26!2sUppal%20Gandhi%20Statue!5e0!3m2!1sen!2sin!4v1677912941294!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div style="display: flex; flex-direction: column; grid-gap: 8px;">
           <h2 style="font-size: 20px; width: max-content;">
@@ -217,5 +221,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/mobile.js"></script>
   </body>
 </html>
