@@ -1,0 +1,131 @@
+main {
+  margin: 0;
+  flex: 1;
+  max-width: 100vw;
+}
+
+.banners-slideshow {
+  display: flex;
+  position: relative;
+}
+
+.banner-image {
+  width: 100%;
+  height: 450px;
+  transition: opacity 500ms ease-in-out 0s;
+  float: left;
+  position: relative;
+  opacity: 1;
+  z-index: 2;
+}
+
+.banner-image-hidden {
+  float: none;
+  opacity: 0;
+  z-index: 1;
+  position: absolute;
+}
+
+.main-page-menu-section {
+  margin-top: 0;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 50px;
+  padding-top: 0;
+  margin-top: -61px;
+}
+
+.main-page-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-page-service-menu-item {
+  text-align: center;
+  width: 350px;
+}
+
+.hexagon-shapes {
+  display: inline-block;
+  margin: 30px auto 45px;
+  position: relative;
+}
+
+.hexagon {
+  background-color: #065695;
+  width: 106px;
+  height: 62px;
+  position: relative;
+  float: left;
+  transform: rotate(90deg);
+}
+
+.hexagon .corner1,
+.hexagon2 .corner1 {
+  transform: rotate(60deg);
+}
+
+.hexagon .corner2,
+.hexagon2 .corner2 {
+  transform: rotate(-60deg);
+}
+
+.hexagon .corner1,
+.hexagon .corner2,
+.hexagon2 .corner1,
+.hexagon2 .corner2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: inherit;
+  left: 0;
+  top: 0;
+  border-left: 2px solid #065695;
+  border-right: 2px solid #065695;
+}
+
+.hexagon2 {
+  width: 103px;
+  height: 58px;
+  left: 0px;
+  background-color: #ffffff;
+  border-left: 2px solid #065695;
+  border-right: 2px solid #065695;
+  position: absolute;
+  float: left;
+}
+
+.hexagon2 img {
+  position: relative;
+  height: 55px;
+}
+
+.service-menu-description p {
+  color: rgb(85, 85, 85);
+  font-family: arial;
+  font-size: 14px;
+  text-align: center;
+}
+
+.service-menu-description a {
+  text-decoration: none;
+}
+
+.service-menu-description a:hover {
+  text-decoration: underline;
+}
+
+.about-us-section {
+  display: flex;
+  grid-gap: 32px;
+  margin: 32px auto;
+}
+
+.about-us-section img {
+  height: 338px;
+}
+
+.about-us-section h1 span {
+  color: #065695;
+}

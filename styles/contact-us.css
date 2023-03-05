@@ -1,0 +1,20 @@
+.contact-info-block {
+  background-color: #1d1d3d;
+  color: #fff;
+  display: flex;
+  grid-gap: 16px;
+  padding: 20px;
+}
+.contact-info-block img {
+  width: auto;
+  height: 28px;
+}
+.contact-info-block h3 {
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0;
+}
+.contact-info-block p {
+  font-size: 14px;
+  margin: 0;
+}

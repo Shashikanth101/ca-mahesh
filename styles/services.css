@@ -1,0 +1,60 @@
+.services-container {
+  display: flex;
+  grid-gap: 24px;
+}
+
+.service-details {
+  flex: 1;
+}
+
+.services-sub-heading {
+  font-size: 16px;
+}
+
+.service-details ul {
+  list-style-image: url(../images/hand-icon1.png);
+}
+
+.service-details li {
+  padding-left: 16px;
+}
+
+.services-menu-container {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 2px;
+}
+
+.services-menu-heading {
+  background-color: #1e82b6;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+}
+
+.services-menu-heading h3 {
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.service-menu-item {
+  background-color: #1e82b6;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.service-menu-item a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.service-menu-item a:hover {
+  text-decoration: underline;
+}
+
+.active-service-menu-item {
+  background-color: #666;
+}
