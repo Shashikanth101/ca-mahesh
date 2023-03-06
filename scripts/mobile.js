@@ -1,6 +1,9 @@
 const navbarMenu = document.querySelector('.hamburger-menu');
 const navLinks = document.querySelector('.nav-links');
-navLinks.classList.add('hide');
+if (window.innerHeight > window.innerWidth) {
+  navLinks.classList.add('hide');
+  document.querySelector('h2').parentElement.style.marginLeft = '8px';
+}
 
 navbarMenu.addEventListener('click', () => {
   if (navLinks.classList.contains('hide')) {
